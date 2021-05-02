@@ -10,7 +10,7 @@ void main() {
   stdout.write('Enter youe age: ');
   //reading the age
   
-  int age = int.parse(stdin.readLineSync());
+  int age = int.parse(stdin.readLineSync()!);
   //printing the age
   print('You are $age year old');
   
